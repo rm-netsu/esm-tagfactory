@@ -1,5 +1,7 @@
 # esm-tagfactory
 
+[![CI](https://github.com/rm-netsu/esm-tagfactory/actions/workflows/ci.yml/badge.svg)](https://github.com/rm-netsu/esm-tagfactory/actions/workflows/ci.yml)
+
 A small, dependency-free TypeScript/ESM framework for deriving Hydrus tag-parent implication DAGs from typed semantic data.
 
 `esm-tagfactory` intentionally has no compatibility layer for the earlier prototypes. Its public API is built around a small set of orthogonal concepts:

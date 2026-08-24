@@ -48,5 +48,13 @@
     "esm",
     "tagfactory"
   ],
-  "packageManager": "bun@1.4.0"
+  "packageManager": "bun@1.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rm-netsu/esm-tagfactory.git"
+  },
+  "homepage": "https://github.com/rm-netsu/esm-tagfactory#readme",
+  "bugs": {
+    "url": "https://github.com/rm-netsu/esm-tagfactory/issues"
+  }
 }
