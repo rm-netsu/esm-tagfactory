@@ -1,60 +1,60 @@
 {
-  "name": "esm-tagfactory",
-  "version": "0.8.0",
-  "description": "Typed, composable TypeScript/ESM framework for deriving canonical tag implication graphs from semantic ontology data",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "typecheck:consumer": "tsc -p tsconfig.consumer.json",
-    "test": "bun test",
-    "test:node": "node test/node-smoke.mjs",
-    "check:node": "npm run typecheck && npm run typecheck:consumer && npm run build && npm run test:node",
-    "check:bun": "bun run typecheck && bun run typecheck:consumer && bun test && bun run build",
-    "ci:node": "npm run check:node && npm pack --dry-run",
-    "ci:bun": "bun run check:bun",
-    "example": "bun examples/basic.ts",
-    "prepack": "npm run build"
-  },
-  "devDependencies": {
-    "typescript": "5.9.2"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "license": "MIT",
-  "sideEffects": false,
-  "keywords": [
-    "tags",
-    "tagging",
-    "implications",
-    "ontology",
-    "hydrus",
-    "ecs",
-    "typescript",
-    "esm",
-    "tagfactory"
-  ],
-  "packageManager": "bun@1.4.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rm-netsu/esm-tagfactory.git"
-  },
-  "homepage": "https://github.com/rm-netsu/esm-tagfactory#readme",
-  "bugs": {
-    "url": "https://github.com/rm-netsu/esm-tagfactory/issues"
-  }
+	"name": "esm-tagfactory",
+	"version": "0.8.0",
+	"description": "Typed, composable TypeScript/ESM framework for deriving canonical tag implication graphs from semantic ontology data",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"typecheck": "tsc -p tsconfig.json --noEmit",
+		"typecheck:consumer": "tsc -p tsconfig.consumer.json",
+		"test": "bun test",
+		"test:node": "node test/node-smoke.mjs",
+		"check:node": "npm run typecheck && npm run typecheck:consumer && npm run build && npm run test:node",
+		"check:bun": "bun run typecheck && bun run typecheck:consumer && bun test && bun run build",
+		"ci:node": "npm run check:node && npm pack --dry-run",
+		"ci:bun": "bun run check:bun",
+		"example": "bun examples/basic.ts",
+		"prepack": "npm run build"
+	},
+	"devDependencies": {
+		"typescript": "5.9.2"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"license": "MIT",
+	"sideEffects": false,
+	"keywords": [
+		"tags",
+		"tagging",
+		"implications",
+		"ontology",
+		"hydrus",
+		"ecs",
+		"typescript",
+		"esm",
+		"tagfactory"
+	],
+	"packageManager": "bun@1.4.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rm-netsu/esm-tagfactory.git"
+	},
+	"homepage": "https://github.com/rm-netsu/esm-tagfactory#readme",
+	"bugs": {
+		"url": "https://github.com/rm-netsu/esm-tagfactory/issues"
+	}
 }
