@@ -1,5 +1,5 @@
 {
-	"name": "esm-tagfactory",
+	"name": "@rm-netsu/esm-tagfactory",
 	"version": "0.8.0",
 	"description": "Typed, composable TypeScript/ESM framework for deriving canonical tag implication graphs from semantic ontology data",
 	"type": "module",
@@ -52,6 +52,9 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rm-netsu/esm-tagfactory.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	},
 	"homepage": "https://github.com/rm-netsu/esm-tagfactory#readme",
 	"bugs": {
